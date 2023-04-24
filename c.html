@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <title>Crear Cuenta</title>
+</head>
+<body>
+    <div id="formulario">
+        <form onsubmit="return validarCamposCreados()" action="index.html" method="get">
+            <label for="nombre">Nombre</label>
+            <div id="separador"></div>
+            <input type="text" placeholder="Nombre" id="nombre" class="inputs" name="nombre">
+            <div id="separador"></div>
+            <label for="contrasena">Contraseña</label>
+            <div id="separador"></div>
+            <input type="password" placeholder="Contraseña" id="contrasena" class="inputs">
+            <div id="separador"></div>
+            <label for="contrasenaRepe">Repetir Contraseña</label>
+            <div id="separador"></div>
+            <input type="password" placeholder="Contraseña" id="contrasenaRepe" class="inputs">
+            <div id="separador"></div>
+            <input type="submit" value="Entrar" id="boton"><br>
+        </form>
+    </div>
+</body>
+<script src="c.js"></script>
+</html>

@@ -1,0 +1,36 @@
+#formulario{
+    margin: 0 auto;
+    width: 60%;
+    height: 15%;
+    background-color: lightcoral;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#separador{
+    height: 20px;
+}
+
+form{
+padding-top: 15px;
+}
+
+.inputs{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 3px solid darkred;
+}
+
+#boton{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#enlace{
+    font-size: 20px;
+}
